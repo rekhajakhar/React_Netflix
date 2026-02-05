@@ -1,4 +1,9 @@
 ## Netflix Project
+- tailwind setup
+- github setup
+- routing
+- header
+
 
 ## layout
 - not logged in 
@@ -14,4 +19,3 @@
 - netflix-gpt
     - search bar
     - movie suggestions
-    
