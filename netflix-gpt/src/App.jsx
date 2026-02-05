@@ -1,10 +1,9 @@
 import React from "react";
+import Body from "./components/Body";
 
 const App = ()=> {
   return (
-    <div>
-      <h1 className="text-2xl text-bold">hello netflix</h1>
-    </div>
+    <Body/>
   )
 }
 
