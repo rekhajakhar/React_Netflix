@@ -9,7 +9,7 @@ export const OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ODU3NmQ1ODdhZGMyYTEzY2YwMDkzMmZkNWM5Yjc2OCIsIm5iZiI6MTc3MDU0MDQ2MC4yOTIsInN1YiI6IjY5ODg0ZGFjNmIzMzJiOGVlZjVkOGI0ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xKR8SMtn-N3QNVIJ1zC4V90Jfn3F9jYR-t2g6Zr_tfI'
+    Authorization: 'Bearer ' + import.meta.env.VITE_TMDB_KEY
   }
 };
 
@@ -21,5 +21,5 @@ export const SUPPORTED_LANGUAGE = [
   {identifier: "spanish", name: "Spanish"}
 ]
 
-export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
-export const OPENAI_GROQ_KEY = process.env.REACT_APP_OPENAI_GROQ_KEY;
+export const OPENAI_KEY = import.meta.env.VITE_OPENAI_KEY;
+export const OPENAI_GROQ_KEY = import.meta.env.VITE_OPENAI_GROQ_KEY;
