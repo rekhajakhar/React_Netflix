@@ -7,7 +7,7 @@ import { MOVIE_POSTER_BASE_URL } from "../utils/constants";
 const MovieCard = ({posterPath}) => {
     if(!posterPath) return null;
     return (
-        <div className="pr-2 w-36">
+        <div className="pr-2 w-36 md:w-48">
             <img alt="movie poster" src={MOVIE_POSTER_BASE_URL + posterPath}/>
         </div>
     )

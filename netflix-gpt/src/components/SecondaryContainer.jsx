@@ -11,7 +11,7 @@ const SecondaryContainer = () => {
     if(!movies || movies.length === 0) return null;
     return(
         <div className="bg-black">
-            <div className="-mt-100 relative">
+            <div className=" mt-0 md:-mt-90 relative">
                 <MovieList title={"Now Playing"} data={movies?.nowPlayingMovies}/>
                 <MovieList title={"Popular Movies"} data={movies?.popularMovies}/>
                 <MovieList title={"Top Rated Movies"} data={movies?.topRatedMovies}/>

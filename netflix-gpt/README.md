@@ -46,6 +46,8 @@
 - push the openai recommended movies to the store in gpt slice & also the tmdb results for these movies
 - create gpt movie recommendation component & fetch the data from store & use the moviList component to render the movies poster
 - do memoization of trailer video, popular movies, now playing movies, etc so that on switch from gpt to home page no new calls are made when we have the data in the store
+- fixing the css for mobile phones & desktop
+- change the title of the tab of local host from index.html
 
 
 
